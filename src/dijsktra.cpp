@@ -2,7 +2,7 @@
 
 using namespace Rcpp;
 
-// [[Rcpp::export]]
+// [[Rcpp::export(.ricercamin)]]
 int ricercamin(NumericVector p, NumericVector u, int n1){
     int trovato=0;
     int m;

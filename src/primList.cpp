@@ -2,7 +2,7 @@
 #include "component1.h"
 using namespace Rcpp;
 
-// [[Rcpp::export]]
+// [[Rcpp::export(.chiamaprim)]]
 List chiamaprim(NumericMatrix graph,NumericMatrix adj, int comp){
     int contarchi=0; // il numero di archi in MST deve essere sempre minore di dim graph -1 altrimenti vorrebbe dire che avrei un ciclo
     int dim=graph.nrow(); //prendo dimensione grafo
