@@ -3,8 +3,6 @@
 ## Table of Contents
 1. [ Introduction. ](#introduction)
 1. [ Prerequisite. ](#prerequisite)
-    * [ Setup with Docker. ](#docker)
-    * [ Setup with installer. ](#installer)
 1. [ ArangoDB basic concepts. ](#graphconcepts)
 1. [ Install the package. ](#installation)
 1. [ Usage examples. ](#usage)
