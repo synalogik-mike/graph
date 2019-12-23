@@ -2,7 +2,7 @@
 #include "component1.h"
 using namespace Rcpp;
 
-// [[Rcpp::export]]
+// [[Rcpp::export(.find)]]
 int find(int index,NumericVector parenti){ //ricerco l'antenato del nodo index
     while(parenti(index)!=index){
         index=parenti(index);
@@ -11,7 +11,7 @@ int find(int index,NumericVector parenti){ //ricerco l'antenato del nodo index
 }
 
 
-// [[Rcpp::export]]
+// [[Rcpp::export(.union1)]]
 int union1 (int x, int y, NumericVector parenti){
     int a=find(x,parenti); //ricerco indice di x e y in parenti
     int b=find(y,parenti);
@@ -23,7 +23,7 @@ int union1 (int x, int y, NumericVector parenti){
     }
 }
 
-// [[Rcpp::export]]
+// [[Rcpp::export(.chiamakruskal)]]
 List chiamakruskal(NumericMatrix weigth, NumericMatrix adj, int comp){
     int cost=0;//variabile costo
     int n=adj.nrow(); //dimensione matrice
