@@ -1,4 +1,4 @@
-# gRaph: an Rcpp package for work with graph
+# MyGraph: an Rcpp package for work with graph
 
 ## Table of Contents
 1. [ Introduction. ](#introduction)
@@ -229,13 +229,13 @@ The following is an uncomplete frequently-updated list to recap the major featur
 
 ## Citation <a name="citation"></a>
 
-  Gabriele Galatolo, Ilaria Ceppa, Matteo Papi, Francesca Giorgolo, Davide Massidda, Marco Calderisi (2019). aRangodb: an R Package to Store, Retrieve and Visualize Data with the Multi-Model Database ArangoDB.
+  Matteo Sabatino (2019). MyGraph: an Rcpp package for work with graph
 
 A BibTeX entry for LaTeX users is
 
 @Manual{
-  title = {aRangodb: an R Package to Store, Retrieve and Visualize Data with the Multi-Model Database ArangoDB},
-  author = {Gabriele Galatolo, Ilaria Ceppa, Matteo Papi, Francesca Giorgolo, Davide Massidda, Marco Calderisi},
+  title = {MyGraph: an Rcpp package for work with graph},
+  author = {Matteo Sabatino},
   organization = {Kode Srl},
   address = {Pisa, Italia},
   year = {2019},
