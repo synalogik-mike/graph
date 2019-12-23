@@ -3,7 +3,7 @@ using namespace Rcpp;
 
 
 
-// [[Rcpp::export]]
+// [[Rcpp::export(.dfs)]]
 void dfs (int x, NumericMatrix g, NumericVector vis1){
     int n1=g.nrow(); //numero di nodi
     vis1(x)=1; //setto come visitato il nodo che ho passato come radice di dfs
