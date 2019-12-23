@@ -1,7 +1,7 @@
 #include <Rcpp.h>
 using namespace Rcpp;
 
-// [[Rcpp::export]]
+// [[Rcpp::export(.pagerank)]]
 NumericVector pagerank(NumericMatrix adjacencymatrix,int comp, int nodes){
     //mi occorre matrice di adiacenza di un grafo orientato
     int n=adjacencymatrix.nrow();
@@ -40,7 +40,7 @@ NumericVector pagerank(NumericMatrix adjacencymatrix,int comp, int nodes){
     return pagerank;
 }
 
-// [[Rcpp::export]]
+// [[Rcpp::export(.dfs2)]]
 void dfs2 (int x, NumericMatrix g, NumericVector vis1,int cont){
     int n1=g.nrow(); //numero di nodi
     vis1(x)=cont; //setto come visitato il nodo che ho passato come radice di dfs
@@ -55,7 +55,7 @@ void dfs2 (int x, NumericMatrix g, NumericVector vis1,int cont){
     }
 
 
-// [[Rcpp::export]]
+// [[Rcpp::export(.component2)]]
 int component2(NumericMatrix adjacency,NumericVector vis){
     int cont=0;
     int n=adjacency.nrow();
