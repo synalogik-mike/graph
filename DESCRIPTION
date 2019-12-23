@@ -6,7 +6,7 @@ Date: 2019-12-13
 Author: Matteo
 Maintainer: Matteo <sabatinomatteo.98@gmail.com>
 Description: This Package work with 
-            with adjacency matrix of direct or not direct Graphs
+            adjacency matrix of direct or not direct Graphs
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.3)
 LinkingTo: Rcpp
